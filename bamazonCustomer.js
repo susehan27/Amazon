@@ -41,10 +41,9 @@ function start() {
                     item = res[i];
                 }
             };
-            console.log(item);
            
             var stock = (item.stock_quantity - parseInt(answer.units));
-            console.log(stock);
+            
 
             if (stock > 0) {
                 var total = parseInt(answer.units) * item.price;
@@ -66,6 +65,7 @@ function start() {
             }
             else {
                 console.log("Sorry, we don't have enough in stock.");
+                connection.end();
             }
         });
     });
