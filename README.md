@@ -1,6 +1,6 @@
-#BAMAZON:thumbsup:
+# BAMAZON:thumbsup:
 
-###This is a node.js application that allows customers to:
+### This is a node.js application that allows customers to:
   1. select a product from the items list
   2. request the number of items 
   3. check the stock availability of the request to complete order
