@@ -8,7 +8,12 @@
 
 **This application runs like the following:
 
-![example screenshot of command line]()
+![example screenshot of command line](/images/command_line.png)
+
+1. run the js file in the command line in your terminal
+
+
+
 
  
  
